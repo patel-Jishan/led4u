@@ -140,49 +140,49 @@ const galleryImages = [
 
   // Government Images
 {
-  id: 17,
+  id: 16,
   src: government1,
   category: 'Government',
   alt: 'Government Project 1',
 },
 {
-  id: 18,
+  id: 17,
   src: government2,
   category: 'Government',
   alt: 'Government Project 2',
 },
 {
-  id: 19,
+  id: 18,
   src: government3,
   category: 'Government',
   alt: 'Government Project 3',
 },
 {
-  id: 20,
+  id: 19,
   src: government4,
   category: 'Government',
   alt: 'Government Project 4',
 },
 {
-  id: 21,
+  id: 20,
   src: government5,
   category: 'Government',
   alt: 'Government Project 5',
 },
 {
-  id: 22,
+  id: 21,
   src: government6,
   category: 'Government',
   alt: 'Government Project 6',
 },
 {
-  id: 23,
+  id: 22,
   src: government7,
   category: 'Government',
   alt: 'Government Project 7',
 },
 {
-  id: 24,
+  id: 23,
   src: government8,
   category: 'Government',
   alt: 'Government Project 8',
@@ -190,31 +190,31 @@ const galleryImages = [
 
   //commercial
     {
-    id: 25,
+    id: 24,
     src: commercial1,
     category: 'Commercial',
     alt: 'LED Commercial',
   },
    {
-    id: 26,
+    id: 25,
     src: commercial2,
     category: 'Commercial',
     alt: 'LED Commercial',
   },
    {
-    id: 27,
+    id: 26,
     src: commercial3,
     category: 'Commercial',
     alt: 'LED Commercial',
   },
    {
-    id: 28,
+    id: 27,
     src: commercial4,
     category: 'Commercial',
     alt: 'LED Commercial',
   },
    {
-    id: 29,
+    id: 28,
     src: commercial5,
     category: 'Commercial',
     alt: 'LED Commercial',
@@ -223,19 +223,19 @@ const galleryImages = [
 // Industry
 // Industry Images
 {
-  id: 30,
+  id: 29,
   src: industry1,
   category: 'Industrial',
   alt: 'Industrial Project 1',
 },
 {
-  id: 31,
+  id: 30,
   src: industry2,
   category: 'Industrial',
   alt: 'Industrial Project 2',
 },
 {
-  id: 32,
+  id: 31,
   src: industry3,
   category: 'Industrial',
   alt: 'Industrial Project 3',
