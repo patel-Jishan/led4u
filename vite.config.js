@@ -13,26 +13,31 @@ const basePath = process.env.BASE_PATH ?? '/';
 
 export default defineConfig({
   base: basePath,
+
   plugins: [
     react(),
     tailwindcss(),
   ],
+
   resolve: {
     alias: {
       '@': path.resolve(import.meta.dirname, 'src'),
       '@assets': path.resolve(import.meta.dirname, 'attached_assets'),
+
       'use-sync-external-store/shim/with-selector': path.resolve(
         import.meta.dirname,
         'src',
         'shims',
         'use-sync-external-store-with-selector.js',
       ),
+
       'use-sync-external-store/shim/with-selector.js': path.resolve(
         import.meta.dirname,
         'src',
         'shims',
         'use-sync-external-store-with-selector.js',
       ),
+
       'stats.js': path.resolve(
         import.meta.dirname,
         'node_modules',
@@ -42,6 +47,7 @@ export default defineConfig({
         'libs',
         'stats.module.js',
       ),
+
       'stats.js/build/stats.min.js': path.resolve(
         import.meta.dirname,
         'node_modules',
@@ -52,13 +58,17 @@ export default defineConfig({
         'stats.module.js',
       ),
     },
+
     dedupe: ['react', 'react-dom'],
   },
+
   root: path.resolve(import.meta.dirname),
+
   build: {
-    outDir: path.resolve(import.meta.dirname, 'dist/public'),
+    outDir: path.resolve(import.meta.dirname, 'dist'),
     emptyOutDir: true,
   },
+
   server: {
     port,
     strictPort: true,
@@ -68,9 +78,11 @@ export default defineConfig({
       strict: true,
     },
   },
+
   optimizeDeps: {
     exclude: ['@react-three/drei'],
   },
+
   preview: {
     port,
     host: '0.0.0.0',
