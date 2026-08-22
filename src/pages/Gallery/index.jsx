@@ -20,8 +20,8 @@ import showroom12 from '@assets/showroom12.jpeg';
 
 //comercial
 import commercial1 from '@assets/commercial1.jpeg'
-import commercial2 from '@assets/commercial2.jpg'
-import commercial3 from '@assets/commercial3.jpg'
+import commercial2 from '@assets/commercial2.JPG'
+import commercial3 from '@assets/commercial3.JPG'
 import commercial4 from '@assets/commercial4.jpeg'
 import commercial5 from '@assets/commercial5.jpeg'
 
