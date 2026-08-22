@@ -37,9 +37,9 @@ import government8 from '@assets/Goverment8.jpeg';
 
 // industry 
 {/* Industry */}
-import industry1 from '@assets/industry1.JPG';
-import industry2 from '@assets/industry2.JPG';
-import industry3 from '@assets/industry3.JPG';
+import industry1 from '@assets/industry1.jpg';
+import industry2 from '@assets/industry2.jpg';
+import industry3 from '@assets/industry3.jpg';
 
 import { X } from 'lucide-react';
 
