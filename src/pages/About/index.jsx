@@ -99,19 +99,19 @@ export default function About() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
               <div className="group text-center">
                 <div className="aspect-square bg-surface mb-6 overflow-hidden rounded-sm border border-white/10 relative">
-                  <img src={founder1} alt="Daxesh Patel" className="w-full h-full object-cover group-hover:scale-105 transition-all duration-700" />
+                  <img src={founder2} alt="Jatin Patel" className="w-full h-full object-cover group-hover:scale-105 transition-all duration-700" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent pointer-events-none" />
                 </div>
-                <h3 className="text-2xl font-bold text-white mb-1">Daxesh Patel</h3>
+                <h3 className="text-2xl font-bold text-white mb-1">Jatin Patel</h3>
                 {/* <p className="text-primary font-semibold uppercase tracking-wider text-sm">Founder</p> */}
               </div>
 
               <div className="group text-center">
                 <div className="aspect-square bg-surface mb-6 overflow-hidden rounded-sm border border-white/10 relative">
-                  <img src={founder2} alt="Jatin Patel" className="w-full h-full object-cover group-hover:scale-105 transition-all duration-700" />
+                  <img src={founder1} alt="Daxesh Patel" className="w-full h-full object-cover group-hover:scale-105 transition-all duration-700" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent pointer-events-none" />
                 </div>
-                <h3 className="text-2xl font-bold text-white mb-1">Jatin Patel</h3>
+                <h3 className="text-2xl font-bold text-white mb-1">Daxesh Patel</h3>
                 {/* <p className="text-primary font-semibold uppercase tracking-wider text-sm">Co-Founder</p> */}
               </div>
             </div>
