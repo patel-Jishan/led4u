@@ -16,10 +16,29 @@ export default function Home() {
 
   return (
     <>
-      <Helmet>
-        <title>LED4U – Premium Government LED Lighting | Bharuch, Gujarat</title>
-        <meta name="description" content="Premium corporate lighting solutions for government, industrial, and commercial infrastructure by Trinayan Corporation." />
-      </Helmet>
+     <Helmet>
+  <title>LED4U – Trinayan Corporation</title>
+
+  <meta
+    name="description"
+    content="LED4U – Trinayan Corporation provides LED lighting solutions for government, infrastructure, industrial and commercial projects across India."
+  />
+
+  <meta
+    name="robots"
+    content="index, follow"
+  />
+
+  <meta
+    property="og:title"
+    content="LED4U – Trinayan Corporation"
+  />
+
+  <meta
+    property="og:description"
+    content="LED4U – Trinayan Corporation provides LED lighting solutions for government, infrastructure, industrial and commercial projects across India."
+  />
+</Helmet>
 
       <Hero />
       <Statistics />
