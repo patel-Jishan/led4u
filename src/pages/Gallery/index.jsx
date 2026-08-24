@@ -18,14 +18,14 @@ import showroom10 from '@assets/showroom10.jpeg';
 import showroom11 from '@assets/showroom11.jpeg';
 import showroom12 from '@assets/showroom12.jpeg';
 
-//comercial
-import commercial1 from '@assets/commercial1.jpeg'
-import commercial2 from '@assets/commercial2.JPG'
-import commercial3 from '@assets/commercial3.JPG'
-import commercial4 from '@assets/commercial4.jpeg'
-import commercial5 from '@assets/commercial5.jpeg'
+// Commercial
+import commercial1 from '@assets/commercial1.jpeg';
+import commercial2 from '@assets/commercial2.JPG';
+import commercial3 from '@assets/commercial3.JPG';
+import commercial4 from '@assets/commercial4.jpeg';
+import commercial5 from '@assets/commercial5.jpeg';
 
-{/* Government */}
+// Government
 import government1 from '@assets/Goverment1.jpeg';
 import government2 from '@assets/Goverment2.jpeg';
 import government3 from '@assets/Goverment3.jpeg';
@@ -34,9 +34,16 @@ import government5 from '@assets/Goverment5.jpeg';
 import government6 from '@assets/Goverment6.jpeg';
 import government7 from '@assets/Goverment7.jpeg';
 import government8 from '@assets/Goverment8.jpeg';
+import government9 from '@assets/Goverment9.jpeg';
+import government10 from '@assets/Goverment10.jpeg';
+import government11 from '@assets/Goverment11.jpeg';
+import government12 from '@assets/Goverment12.jpeg';
+import government13 from '@assets/Goverment13.jpeg';
+import government14 from '@assets/Goverment14.jpeg';
+import government15 from '@assets/Goverment15.jpeg';
+import government16 from '@assets/Goverment16.jpeg';
 
-// industry 
-{/* Industry */}
+// Industry
 import industry1 from '@assets/industry1.jpg';
 import industry2 from '@assets/industry2.jpg';
 import industry3 from '@assets/industry3.jpg';
@@ -139,108 +146,154 @@ const galleryImages = [
   },
 
   // Government Images
-{
-  id: 16,
-  src: government1,
-  category: 'Government',
-  alt: 'Government Project 1',
-},
-{
-  id: 17,
-  src: government2,
-  category: 'Government',
-  alt: 'Government Project 2',
-},
-{
-  id: 18,
-  src: government3,
-  category: 'Government',
-  alt: 'Government Project 3',
-},
-{
-  id: 19,
-  src: government4,
-  category: 'Government',
-  alt: 'Government Project 4',
-},
-{
-  id: 20,
-  src: government5,
-  category: 'Government',
-  alt: 'Government Project 5',
-},
-{
-  id: 21,
-  src: government6,
-  category: 'Government',
-  alt: 'Government Project 6',
-},
-{
-  id: 22,
-  src: government7,
-  category: 'Government',
-  alt: 'Government Project 7',
-},
-{
-  id: 23,
-  src: government8,
-  category: 'Government',
-  alt: 'Government Project 8',
-},
-
-  //commercial
-    {
+  {
+    id: 16,
+    src: government1,
+    category: 'Government',
+    alt: 'Government Project 1',
+  },
+  {
+    id: 17,
+    src: government2,
+    category: 'Government',
+    alt: 'Government Project 2',
+  },
+  {
+    id: 18,
+    src: government3,
+    category: 'Government',
+    alt: 'Government Project 3',
+  },
+  {
+    id: 19,
+    src: government4,
+    category: 'Government',
+    alt: 'Government Project 4',
+  },
+  {
+    id: 20,
+    src: government5,
+    category: 'Government',
+    alt: 'Government Project 5',
+  },
+  {
+    id: 21,
+    src: government6,
+    category: 'Government',
+    alt: 'Government Project 6',
+  },
+  {
+    id: 22,
+    src: government7,
+    category: 'Government',
+    alt: 'Government Project 7',
+  },
+  {
+    id: 23,
+    src: government8,
+    category: 'Government',
+    alt: 'Government Project 8',
+  },
+  {
     id: 24,
+    src: government9,
+    category: 'Government',
+    alt: 'Government Project 9',
+  },
+  {
+    id: 25,
+    src: government10,
+    category: 'Government',
+    alt: 'Government Project 10',
+  },
+  {
+    id: 26,
+    src: government11,
+    category: 'Government',
+    alt: 'Government Project 11',
+  },
+  {
+    id: 27,
+    src: government12,
+    category: 'Government',
+    alt: 'Government Project 12',
+  },
+  {
+    id: 28,
+    src: government13,
+    category: 'Government',
+    alt: 'Government Project 13',
+  },
+  {
+    id: 29,
+    src: government14,
+    category: 'Government',
+    alt: 'Government Project 14',
+  },
+  {
+    id: 30,
+    src: government15,
+    category: 'Government',
+    alt: 'Government Project 15',
+  },
+  {
+    id: 31,
+    src: government16,
+    category: 'Government',
+    alt: 'Government Project 16',
+  },
+
+  // Commercial Images
+  {
+    id: 32,
     src: commercial1,
     category: 'Commercial',
-    alt: 'LED Commercial',
+    alt: 'LED Commercial 1',
   },
-   {
-    id: 25,
+  {
+    id: 33,
     src: commercial2,
     category: 'Commercial',
-    alt: 'LED Commercial',
+    alt: 'LED Commercial 2',
   },
-   {
-    id: 26,
+  {
+    id: 34,
     src: commercial3,
     category: 'Commercial',
-    alt: 'LED Commercial',
+    alt: 'LED Commercial 3',
   },
-   {
-    id: 27,
+  {
+    id: 35,
     src: commercial4,
     category: 'Commercial',
-    alt: 'LED Commercial',
+    alt: 'LED Commercial 4',
   },
-   {
-    id: 28,
+  {
+    id: 36,
     src: commercial5,
     category: 'Commercial',
-    alt: 'LED Commercial',
+    alt: 'LED Commercial 5',
   },
 
-// Industry
-// Industry Images
-{
-  id: 29,
-  src: industry1,
-  category: 'Industrial',
-  alt: 'Industrial Project 1',
-},
-{
-  id: 30,
-  src: industry2,
-  category: 'Industrial',
-  alt: 'Industrial Project 2',
-},
-{
-  id: 31,
-  src: industry3,
-  category: 'Industrial',
-  alt: 'Industrial Project 3',
-},
-
+  // Industry Images
+  {
+    id: 37,
+    src: industry1,
+    category: 'Industrial',
+    alt: 'Industrial Project 1',
+  },
+  {
+    id: 38,
+    src: industry2,
+    category: 'Industrial',
+    alt: 'Industrial Project 2',
+  },
+  {
+    id: 39,
+    src: industry3,
+    category: 'Industrial',
+    alt: 'Industrial Project 3',
+  },
 ];
 
 export default function Gallery() {
