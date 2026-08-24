@@ -3,7 +3,9 @@ import { Helmet } from 'react-helmet-async';
 import { CheckCircle2 } from 'lucide-react';
 import founder1 from '@assets/Daxesh.jpeg';
 import founder2 from '@assets/Jatin.jpeg';
-import facilityImg from '@assets/showroom1.png';
+import facilityImg from '@assets/Board2.jpeg';
+// import facilityImg from '@assets/showroom1.png';
+
 
 export default function About() {
   useEffect(() => {
@@ -46,10 +48,19 @@ export default function About() {
 
           {/* Story & Values */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-32">
-            <div>
+            {/* <div>
               <div className="aspect-[4/5] bg-surface rounded-sm overflow-hidden relative border border-white/10">
                 <img src={facilityImg} alt="Company Facility" className="w-full h-full object-cover opacity-50 grayscale hover:grayscale-0 transition-all duration-700" />
                 <div className="absolute inset-0 bg-primary/20 mix-blend-overlay" />
+              </div>
+            </div> */}
+            <div>
+              <div className="rounded-sm overflow-hidden relative border border-white/10 bg-black">
+                <img
+                  src={facilityImg}
+                  alt="Trinayan Corporation Showroom"
+                  className="w-full h-auto object-contain transition-transform duration-700 hover:scale-[1.02]"
+                />
               </div>
             </div>
 
@@ -79,22 +90,22 @@ export default function About() {
           </div>
 
           {/* Leadership */}
-          
-{/* <div className="mb-32">             <div className="text-center mb-16">               <h2 className="text-4xl md:text-5xl font-display font-bold text-white mb-4">Leadership</h2>               <p className="text-gray-400">The visionaries driving Trinayan Corporation.</p>             </div> */}
- <div className="mb-32">
+
+          {/* <div className="mb-32">             <div className="text-center mb-16">               <h2 className="text-4xl md:text-5xl font-display font-bold text-white mb-4">Leadership</h2>               <p className="text-gray-400">The visionaries driving Trinayan Corporation.</p>             </div> */}
+          <div className="mb-32">
             <div className="text-center mb-16">
-    <p className="text-primary uppercase tracking-[0.3em] text-sm font-semibold mb-3">
-      Leadership
-    </p>
+              <p className="text-primary uppercase tracking-[0.3em] text-sm font-semibold mb-3">
+                Leadership
+              </p>
 
-    <h2 className="text-4xl md:text-5xl font-display font-bold text-white mb-4">
-      Our Founders
-    </h2>
+              <h2 className="text-4xl md:text-5xl font-display font-bold text-white mb-4">
+                Our Founders
+              </h2>
 
-    <p className="text-gray-400 max-w-2xl mx-auto">
-      Meet the visionaries behind LED4U – Trinayan Corporation.
-    </p>
-  </div>
+              <p className="text-gray-400 max-w-2xl mx-auto">
+                Meet the visionaries behind LED4U – Trinayan Corporation.
+              </p>
+            </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
               <div className="group text-center">
