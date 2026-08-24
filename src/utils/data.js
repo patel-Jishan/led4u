@@ -28,7 +28,7 @@ import solarRooftopImg from '@assets/SolarRooftop.jpeg';
 
 
 export const servicesList = [
-  'Government Lighting',
+  'Government Work',
   'Industrial Supplier',
   'Industrial Work',
   'Commercial Lighting',
