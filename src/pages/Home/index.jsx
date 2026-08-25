@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <>
      <Helmet>
-  <title>LED4U – Trinayan Corporation</title>
+  <title>LED4U – LED Lighting Solutions | Trinayan Corporation</title>
 
   <meta
     name="description"
